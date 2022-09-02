@@ -1,0 +1,15 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "1.0.0",
+  "ExtendedData": {
+    "inputs": [
+      "http://isapi.icu-tech.com/icutech-test.dll/wsdl/IICUTech"
+    ],
+    "namespaceMappings": [
+      "*, IICUTech_Test.IICUTechservice"
+    ],
+    "outputFile": "IICUTechservice.cs",
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}
